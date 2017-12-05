@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mobile"
+    android:paddingLeft="8dp"
+    android:paddingTop="8dp"
+    android:gravity="center_horizontal"
+    tools:context="com.example.liushichao.myapplication.activity.MainActivity">
+
+    <Button
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:id="@+id/start_float_window"
+        android:text="开启悬浮窗"
+        android:gravity="center"
+        android:layout_marginTop="240dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_img"/>
+
+    <Button
+        android:id="@+id/html"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_marginTop="10dp"
+        android:text="所有收藏"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_img"/>
+
+    <Button
+        android:id="@+id/createClass"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_marginTop="10dp"
+        android:text="自定义分类"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_img"/>
+
+    <Button
+        android:id="@+id/lookClass"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_marginTop="10dp"
+        android:text="查看分类"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_img"/>
+    <Button
+        android:id="@+id/explain"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_marginTop="10dp"
+        android:text="操作说明"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_img"/>
+</LinearLayout>
