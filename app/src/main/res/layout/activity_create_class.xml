@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:orientation="horizontal"
+        android:visibility="gone"
         android:paddingBottom="@dimen/d10"
         android:paddingLeft="@dimen/d15"
         android:paddingRight="@dimen/d15"
