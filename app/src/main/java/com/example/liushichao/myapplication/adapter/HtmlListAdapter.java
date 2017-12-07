@@ -1,16 +1,19 @@
 package com.example.liushichao.myapplication.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.liushichao.myapplication.R;
+import com.example.liushichao.myapplication.activity.WebViewActivity;
 import com.example.liushichao.myapplication.listener.RemoveHtmlListener;
 import com.example.liushichao.myapplication.mode.WebLinkBean;
+import com.example.liushichao.myapplication.utils.Params;
 
 import java.util.List;
 
@@ -57,6 +60,7 @@ public class HtmlListAdapter extends BaseAdapter {
             viewHolder.name = convertView.findViewById(R.id.name);
             viewHolder.time = convertView.findViewById(R.id.time);
             viewHolder.delete = convertView.findViewById(R.id.delete);
+            viewHolder.content = convertView.findViewById(R.id.content);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (ViewHolder) convertView.getTag();
@@ -71,6 +75,16 @@ public class HtmlListAdapter extends BaseAdapter {
                 }
             }
         });
+
+        viewHolder.content.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, WebViewActivity.class);
+                intent.putExtra(Params.data, bean.getUrl());
+                intent.putExtra(Params.openType, Params.Look);
+                context.startActivity(intent);
+            }
+        });
         return convertView;
     }
 
@@ -78,5 +92,6 @@ public class HtmlListAdapter extends BaseAdapter {
         public TextView name;
         public TextView time;
         public TextView delete;
+        public LinearLayout content;
     }
 }
