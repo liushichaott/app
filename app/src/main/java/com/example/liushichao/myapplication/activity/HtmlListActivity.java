@@ -49,18 +49,6 @@ public class HtmlListActivity extends Activity implements RemoveHtmlListener {
         }
         adapter = new HtmlListAdapter(this, data,this);
         listView.setAdapter(adapter);
-
-        //点击查看网页
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(HtmlListActivity.this, WebViewActivity.class);
-                intent.putExtra(Params.data, data.get(i).getUrl());
-                intent.putExtra(Params.openType,Params.Look);
-                startActivity(intent);
-            }
-        });
-
         //长按加入分类
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
