@@ -20,7 +20,8 @@ public class ExplainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_explain);
         text = findViewById(R.id.text);
-        text.setText("1.使用该app应在手机设置应用管理里，找到该应用打开悬浮窗开关\n2.点击悬浮窗自动显示桌面悬浮窗\n" +
+        text.setText("1.使用该app应在手机设置应用管理里，找到该应用打开悬浮窗开关\n" +
+                "2.点击悬浮窗自动显示桌面悬浮窗\n" +
                 "3.所有收藏包含所有收藏记录\n" +
                 "4.可自定义添加分类\n" +
                 "5.长按分类模块删除该模块\n" +
@@ -28,6 +29,7 @@ public class ExplainActivity extends Activity {
                 "7.点击收藏记录可查看详情\n" +
                 "8.长按收藏记录可选择要加入的分类模块\n" +
                 "9.卸载本应用后收藏数据将被删除\n" +
-                "10.使用该应用收藏功能是保证网络通畅，复制要保存的网页的链接然后点击桌面浮窗，点击收藏按钮即可");
+                "10.列表页提供侧滑删除功能\n" +
+                "11.使用该应用收藏功能是保证网络通畅，复制要保存的网页的链接然后点击桌面浮窗，点击收藏按钮即可");
     }
 }
