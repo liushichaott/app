@@ -31,6 +31,8 @@ import java.util.List;
 
 public class CreateClassActivity extends Activity {
 
+
+
     private EditText editText;
     private GridView grid_view;
     private LinearLayout inputLayout;
