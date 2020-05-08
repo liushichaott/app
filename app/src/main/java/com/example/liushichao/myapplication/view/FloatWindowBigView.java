@@ -23,7 +23,7 @@ import static android.content.Context.CLIPBOARD_SERVICE;
 public class FloatWindowBigView extends LinearLayout {
     private ClipboardManager clipboard = null;
     /**
-     * 记录大悬浮窗的宽度
+     * 记录大悬浮窗的宽度------------------
      */
     public static int viewWidth;
 
