@@ -39,7 +39,7 @@ public class CreateClassActivity extends Activity {
     private LinearLayout inputLayout;
     private CreateClassAdapter adapter;
     private List<String> data = new ArrayList<>();
-    private int openType;
+    private int openType;//回复框上开发
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
