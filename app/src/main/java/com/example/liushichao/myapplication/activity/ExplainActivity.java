@@ -9,7 +9,7 @@ import com.example.liushichao.myapplication.R;
 
 /**
  * Created by liushichao on 2017/12/2.
- * 使用说明
+ * 使用说明飞洒范德萨发撒法
  */
 
 public class ExplainActivity extends Activity {
