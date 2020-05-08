@@ -18,6 +18,7 @@ public class ExplainActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        的方式
         setContentView(R.layout.activity_explain);
         text = findViewById(R.id.text);
         text.setText("1.使用该app应在手机设置应用管理里，找到该应用打开悬浮窗开关\n" +
