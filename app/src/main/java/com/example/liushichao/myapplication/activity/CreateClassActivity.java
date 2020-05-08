@@ -37,6 +37,7 @@ public class CreateClassActivity extends Activity {
     //主干提交
     private GridView grid_view;
     private LinearLayout inputLayout;
+
     private CreateClassAdapter adapter;
     private List<String> data = new ArrayList<>();
     private int openType;
