@@ -34,6 +34,7 @@ public class CreateClassActivity extends Activity {
 
 
     private EditText editText;
+    //主干提交
     private GridView grid_view;
     private LinearLayout inputLayout;
     private CreateClassAdapter adapter;
