@@ -32,7 +32,7 @@ import java.util.List;
 public class CreateClassActivity extends Activity {
 
 
-
+//分支提交
     private EditText editText;
     private GridView grid_view;
     private LinearLayout inputLayout;
