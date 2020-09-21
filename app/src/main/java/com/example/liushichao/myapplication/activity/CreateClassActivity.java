@@ -45,6 +45,7 @@ public class CreateClassActivity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //测试合流1
         setContentView(R.layout.activity_create_class);
         grid_view = findViewById(R.id.grid);
         editText = findViewById(R.id.editText);
