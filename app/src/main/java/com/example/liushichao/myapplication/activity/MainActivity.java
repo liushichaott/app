@@ -13,7 +13,7 @@ import com.example.liushichao.myapplication.utils.Params;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private Button html;
-    private Button startFloatWindow;
+    private Button startFloatWindow;//ha1
     private Button createClass;
     private Button lookClass;
     private Button explain;
