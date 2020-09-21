@@ -16,7 +16,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button startFloatWindow;
     private Button createClass;
     private Button lookClass;
-    private Button explain;
+    private Button explain;//hisfhsifhis
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
