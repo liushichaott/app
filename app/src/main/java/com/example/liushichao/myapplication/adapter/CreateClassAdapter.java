@@ -13,7 +13,7 @@ import java.util.List;
 
 /**
  * Created by liushichao on 2017/12/1.
- * 自定义分类adapter
+ * 自定义分类adapter hhhhhhh
  */
 
 public class CreateClassAdapter extends BaseAdapter{
