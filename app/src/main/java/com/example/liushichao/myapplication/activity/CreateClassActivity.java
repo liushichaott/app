@@ -38,13 +38,14 @@ public class CreateClassActivity extends Activity {
     private GridView grid_view;
     private LinearLayout inputLayout;
 
-    private CreateClassAdapter adapter;
+    private CreateClassAdapter adapter;//测试测试2
     private List<String> data = new ArrayList<>();
     private int openType;//回复框上开发
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //测试合流1
         setContentView(R.layout.activity_create_class);
         grid_view = findViewById(R.id.grid);
         editText = findViewById(R.id.editText);
