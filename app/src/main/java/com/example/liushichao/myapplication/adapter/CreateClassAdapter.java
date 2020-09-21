@@ -12,8 +12,8 @@ import com.example.liushichao.myapplication.R;
 import java.util.List;
 
 /**
- * Created by liushichao on 2017/12/1.
- * 自定义分类adapter
+ * Created by liushichao on 2017/12/1. gfdgdgdgdg
+ * 自定义分类adapter hhhhhhh
  */
 
 public class CreateClassAdapter extends BaseAdapter{

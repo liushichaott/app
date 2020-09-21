@@ -9,7 +9,7 @@ import com.example.liushichao.myapplication.R;
 import com.example.liushichao.myapplication.view.MyWebView;
 
 /**
- * Created by liushichao on 2017/11/28.
+ * Created by liushichao on 2017/11/28.嘀咕嘀咕嘀咕的
  */
 
 public class WebViewActivity extends Activity {
