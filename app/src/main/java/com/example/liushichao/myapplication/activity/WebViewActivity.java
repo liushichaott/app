@@ -14,6 +14,12 @@ import com.example.liushichao.myapplication.view.MyWebView;
 
 public class WebViewActivity extends Activity {
 
+
+
+    
+
+
+
     private MyWebView webView;
 
     @Override
