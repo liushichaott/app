@@ -19,7 +19,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button explain;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {//master
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         startFloatWindow = findViewById(R.id.start_float_window);
