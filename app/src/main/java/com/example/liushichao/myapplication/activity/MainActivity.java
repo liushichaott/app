@@ -22,7 +22,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        startFloatWindow = findViewById(R.id.start_float_window);
+        startFloatWindow = findViewById(R.id.start_float_window);//1
         createClass = findViewById(R.id.createClass);
         lookClass = findViewById(R.id.lookClass);
         html = findViewById(R.id.html);
