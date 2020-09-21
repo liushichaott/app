@@ -13,15 +13,15 @@ import com.example.liushichao.myapplication.utils.Params;
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private Button html;
-    private Button startFloatWindow;
+    private Button startFloatWindow;//ha1
     private Button createClass;//ha3
     private Button lookClass;
     private Button explain;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {//master
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);//2
         startFloatWindow = findViewById(R.id.start_float_window);
         createClass = findViewById(R.id.createClass);
         lookClass = findViewById(R.id.lookClass);
