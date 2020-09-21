@@ -15,11 +15,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button html;//ha1
     private Button startFloatWindow;
     private Button createClass;
-    private Button lookClass;
+    private Button lookClass;///////////
     private Button explain;//hisfhsifhis
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {//master
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         startFloatWindow = findViewById(R.id.start_float_window);//1
