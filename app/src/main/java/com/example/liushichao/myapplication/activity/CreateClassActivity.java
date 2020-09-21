@@ -40,7 +40,7 @@ public class CreateClassActivity extends Activity {
 
     private CreateClassAdapter adapter;
     private List<String> data = new ArrayList<>();
-    private int openType;//回复框上开发
+    private int openType;//回复框上开 发
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
