@@ -20,7 +20,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);//3
         setContentView(R.layout.activity_main);
         startFloatWindow = findViewById(R.id.start_float_window);
         createClass = findViewById(R.id.createClass);
