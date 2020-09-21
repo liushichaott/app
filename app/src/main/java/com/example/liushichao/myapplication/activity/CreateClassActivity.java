@@ -41,7 +41,7 @@ public class CreateClassActivity extends Activity {
     private CreateClassAdapter adapter;//测试1
     private List<String> data = new ArrayList<>();
     private int openType;//回复框上开 发法国嘀咕嘀咕嘀咕嘀咕的
-
+//添加注释
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
