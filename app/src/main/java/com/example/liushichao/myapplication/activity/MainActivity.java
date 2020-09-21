@@ -12,17 +12,17 @@ import com.example.liushichao.myapplication.utils.Params;
 
 public class MainActivity extends Activity implements View.OnClickListener {
 
-    private Button html;
-    private Button startFloatWindow;//ha1
-    private Button createClass;//ha3
+    private Button html;//ha1
+    private Button startFloatWindow;
+    private Button createClass;
     private Button lookClass;
     private Button explain;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);//2
-        startFloatWindow = findViewById(R.id.start_float_window);
+        setContentView(R.layout.activity_main);
+        startFloatWindow = findViewById(R.id.start_float_window);//1
         createClass = findViewById(R.id.createClass);
         lookClass = findViewById(R.id.lookClass);
         html = findViewById(R.id.html);
